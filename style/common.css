@@ -1,0 +1,130 @@
+body {
+  padding-top: 60px;
+}
+a:hover, a:focus {
+text-decoration: none;
+}
+.table th {
+   text-align: center;   
+}
+.table td {
+   vertical-align: middle!important;   
+}
+.dropdown-menu>li>a{
+	padding:10px;
+	width: 10px;
+}
+.panel pre{
+	height:34px;
+	margin-bottom: 0;
+	padding: 5px;
+}
+.panel .btn-info{
+	margin-right: 10px;
+}
+#add-user input[type="text"]{
+	width: 100%;
+}
+/*
+#login-page{
+	margin-bottom: 80px;
+	margin-top: 80px;
+}
+#login-page form{
+	background-color: #fff;
+	border: 1px solid rgba(0,0,0,0.1);
+	margin: 0 auto;
+	max-width: 380px;
+	padding: 15px 35px 45px;
+}
+*/
+
+#login-page form{
+	background-color: #fff;
+	margin: 0 auto;
+	padding: 15px 35px 45px;
+}
+.form-signin-heading, #login-page form input[type="password"]{
+	margin-bottom: 20px;
+}
+
+#login-page form input[type="text"]{
+	margin-bottom: 10px;
+}
+	
+.clock {
+    transform-origin: 0 0;
+    transform: scale(.25);
+    -ms-transform: scale(.25);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(.25);
+    -o-transform-origin: 0 0;
+    -o-transform: scale(.25);
+    -moz-transform-origin: 0 0;
+    -moz-transform: scale(.25);
+}
+
+html         { overflow-y:hidden; }
+.page        { 
+	bottom:0; 
+	padding-top:100px;
+	position:absolute; 
+	text-align:center;
+	top:0;  
+	width:100%; 
+}
+
+.home	{ background:#00D0BC;}
+.login	{ background:#ffa6bb;}
+
+/* ANIMATIONS
+============================================================================= */
+/* page specific animations ------------------------ */
+
+/* home -------------------------- */
+/*
+.home.ng-leave         {
+    -webkit-transform-origin: 0% 0%;
+	-webkit-animation: rotateFall 1s both ease-in;
+	-moz-transform-origin: 0% 0%;
+	-moz-animation: rotateFall 1s both ease-in;
+	transform-origin: 0% 0%;
+	animation: rotateFall 1s both ease-in;
+}
+.home.ng-enter 		{  
+    -webkit-animation:scaleUp 0.5s both ease-in;
+	-moz-animation:scaleUp 0.5s both ease-in;
+	animation:scaleUp 0.5s both ease-in;    
+}
+*/
+/* about ------------------------ */
+
+/*.login*/
+.ng-leave        {
+    -webkit-animation:slideOutLeft 0.5s both ease-in;
+	-moz-animation:slideOutLeft 0.5s both ease-in;
+	animation:slideOutLeft 0.5s both ease-in;   
+}
+/*.login*/
+.ng-enter 		{  
+    -webkit-animation:slideInRight 0.5s both ease-in;
+	-moz-animation:slideInRight 0.5s both ease-in;
+	animation:slideInRight 0.5s both ease-in;    
+}
+
+/* contact ---------------------- */
+/*
+.users.ng-leave      {
+    -webkit-transform-origin: 50% 50%;
+	-webkit-animation: rotateOutNewspaper .5s both ease-in;
+	-moz-transform-origin: 50% 50%;
+	-moz-animation: rotateOutNewspaper .5s both ease-in;
+	transform-origin: 50% 50%;
+	animation: rotateOutNewspaper .5s both ease-in;
+}
+.users.ng-enter 		{ 
+    -webkit-animation:slideInUp 0.5s both ease-in;
+	-moz-animation:slideInUp 0.5s both ease-in;
+	animation:slideInUp 0.5s both ease-in;  
+}
+*/
